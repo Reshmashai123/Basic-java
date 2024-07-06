@@ -20,4 +20,21 @@ class B
  System.out.println("main ends");
  }
 }
+//without main function calling another class main
+class C
+{
+  public static void m1()
+  {
+  System.out.println("m1 class");
+  }
+}
+class D
+{
+  public static void main(String[] args)
+  {
+  System.out.println("main starts");
+  c.m1();
+  System.out.println("main ends");
   
+
+
