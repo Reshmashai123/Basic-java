@@ -35,6 +35,8 @@ class D
   System.out.println("main starts");
   c.m1();
   System.out.println("main ends");
+  }
+}
   
 
 
