@@ -1,0 +1,5 @@
+java is a object oriented programming language,simple and easy to understand ,the code is to be execute in the line by line execution 
+this java is user friendly envioronment
+it is a platform independent and secure
+the block diagram of jva code process is
+code------>compiler(java development kit(jdk))------>byte code--->jre(java run time environment)---->jvm(java virtual machine)
