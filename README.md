@@ -1,4 +1,5 @@
 # Basic-java
+
 //print Hello world 
 //Using main method print Hello world
 class A
@@ -82,7 +83,7 @@ class F
 //declaring static value using object creation
 //creating multiple object creation it will store the value only one value at a time 
 //Here declaring static int value by creating thre objects,in static it display the same value three times 
-class L 
+class G
 {
 	static int i;
 	public static void main(String[] args) 
@@ -99,7 +100,7 @@ class L
 	}
 }
 //dellaring a multiple static values 
-class L 
+class H 
 {
 	static int i;
 	static char j;
@@ -119,7 +120,7 @@ class L
 //delaring a static value for character data type giving integer value
 //it will not throw any error
 //but that block of statement will be skipped
-class L 
+class I 
 {
 	static int i;
 	static char j;
@@ -136,7 +137,7 @@ class L
 		System.out.println(n.j);	//here this lock will not be executed and empty space created and come out of the program
 	}
 }
-class L 
+class J 
 {
 	static int i;
 	static char j;
@@ -154,7 +155,7 @@ class L
 	}
 }
 //declaring  and intializing a staic variable outside the block
-class L 
+class K 
 {
 	static int i=1;
 	static char j='d';
@@ -172,7 +173,7 @@ class L
 	}
 }
 //declaring and intializing without using classname and object creation
-class L 
+class M 
 {
 	static int i=1;
 	static char j='s';
@@ -185,7 +186,7 @@ class L
 	}
 }
 //declaring and intializing with using class name
-class L 
+class N 
 {
 	static int i=45;
 	static char j='g';
@@ -199,7 +200,7 @@ class L
 //hence static variable can be intialized using class name or object name but most of the cases class name is suggested to better understating
 //in case of non static varible compulsory we should create an object otherwise it will throw an error
 //delaring a non static variable
-class L 
+class O 
 {
 	int i=1;
 	char j='d';
@@ -216,6 +217,53 @@ class L
 		System.out.println(n.j);		//s
 	}
 }
-//operators
+//oprators are arithematic,logical,unary,terinary operators
+//Arithematic operators 
+//in java there are totally five operators
+//they are +,-,/,*,%
+//'+' operator is used to add two or more values
+//'-' operator is used to subtract two or more values
+//'*' operator is used to  multiply the values
+//'/' division operator is used to remove last digit in the number and also it divides the numbers and returns the quotient value
+//'%' operator is used to take a last digit from the number and also it will return the remainder between the numbers
+
+//using simple addition operator using direct values
+class P
+{
+	public static void main(String[] args) 
+	{
+				
+		System.out.println(7+7);	//14
+	}
+}
+//using simple by using local variables
+class Q 
+{
+	public static void main(String[] args) 
+	{
+		int a=7;
+		int b=12;
+		System.out.println(a+b);	//19
+	}
+}
+//program to perform all arithmatic operations
+class R
+{
+	public static void main(String[] args) 
+	{
+		int a=14;
+		int b=5;
+		System.out.println(a+b);	//19
+    		System.out.println(a-b);	//9
+		System.out.println(a*b);	//70
+		System.out.println(a/b);	//2
+		System.out.println(a%b);	//4
+
+	}
+}
+// Logical Operators
+//Here in this the logical operators are logical AND (&&),logical or(||) ,and finally logical Not(!)
+//these logical operators are used to
+
 
 
