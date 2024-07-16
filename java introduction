@@ -3,3 +3,9 @@ this java is user friendly envioronment
 it is a platform independent and secure
 the block diagram of jva code process is
 code------>compiler(java development kit(jdk))------>byte code--->jre(java run time environment)---->jvm(java virtual machine)
+--------------------------------------------------------------------------------------------------------------------------------
+to declare a class name or variable name it follows some standards are
+class name always start with capital letters,_,$ is allowed
+ex: Scon,Rom,PracticeBook
+varible name first word shoul be small letter second word shoul be capital leter
+ex:sumNum,primeNum,a,avgTotal
