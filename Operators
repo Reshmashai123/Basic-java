@@ -1,1 +1,89 @@
+in java there are totally five operators
+//operators are 
+-->arithematic
+--->logical
+---->unary
+----->terinary operators
+//Arithematic operators 
+//they are +,-,/,*,% 
+//'+' operator is used to add two or more values
+//'-' operator is used to subtract two or more values
+//'*' operator is used to  multiply the values
+//'/' division operator is used to remove last digit in the number and also it divides the numbers and returns the quotient value
+//'%' operator is used to take a last digit from the number and also it will return the remainder between the numbers
+//these  are only applicable for single value or variable cannot be used as a conditions
+//using simple addition operator using direct values
+class P
+{
+	public static void main(String[] args) 
+	{
+				
+		System.out.println(7+7);	//14
+	}
+}
+//using simple by using local variables
+class Q 
+{
+	public static void main(String[] args) 
+	{
+		int a=7;
+		int b=12;
+		System.out.println(a+b);	//19
+	}
+}
+//program to perform all arithmatic operations
+class R
+{
+	public static void main(String[] args) 
+	{
+		int a=14;
+		int b=5;
+		System.out.println(a+b);	//19
+    		System.out.println(a-b);	//9
+		System.out.println(a*b);	//70
+		System.out.println(a/b);	//2
+		System.out.println(a%b);	//4
+
+	}
+}
+// Logical Operators
+//Here in this the logical operators are logical AND (&&),logical or(||) ,and finally logical Not(!)
+//logical AND is defined as both the conditions should satisfy at a  same time i.e both the conditions are true then the statements will get excuted
+//logical OR is defined as if either one  statement is true or two statemnts are true then the set of statements will be excuted
+//in other in any of the condition is true then it will get executed otherwise diplays nothing
+//program for &&,||,! operators
+class S
+{
+  public static void main(String[] args)
+  {
+     int a=14;
+      System.out.println(a>10 && a==15);    // false 
+      System.out.println(a>10 || a<=15);    //true
+      System.out.println(a!=0);              //true
+  }
+}
+//the above code can also be written by using to  store result in one variable and then print it 
+class T
+{
+  public static void main(String[] args)
+  {
+int a =14;
+boolean res=a>10 && a==15;
+boolean res2=a>10 || a<=15;
+boolean res3=a!=0;
+      System.out.println(res);    // false 
+      System.out.println(res2);    //true
+      System.out.println(res3);    //true
+  }
+}
+
+
+
+
+
+
+
+    
+
+
 
