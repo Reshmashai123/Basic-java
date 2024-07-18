@@ -1,0 +1,19 @@
+Dynamic read is defined as the user is to give the input value during the execution time
+(or)
+we can give the value at execution time 
+intially some packages are used to for the classes and interfaces
+without using any package name it will directly take into the "lang" package
+but to read the dynamic values we must have the "Scanner" class which is belongs to the util package
+to import util package we can use as
+syntax;
+import java.util.Scanner;
+---> Scanner class has to create an object the syntax shown below
+Scanner variablename=new Scanner(System.in);
+variabletype variablename1=variablename.nextvariabletype
+ex:
+Scanner s=new Scanner(System.in);
+int n=s.nextInt()
+--->
+here each datatype has each value that is
+int--->nextInt();
+float
