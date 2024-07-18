@@ -1,18 +1,18 @@
 in java there are totally five operators
-//operators are 
+/*operators are 
 -->arithematic
 --->logical
 ---->unary
 ----->terinary operators
-//Arithematic operators 
-//they are +,-,/,*,% 
-//'+' operator is used to add two or more values
-//'-' operator is used to subtract two or more values
-//'*' operator is used to  multiply the values
-//'/' division operator is used to remove last digit in the number and also it divides the numbers and returns the quotient value
-//'%' operator is used to take a last digit from the number and also it will return the remainder between the numbers
-//these  are only applicable for single value or variable cannot be used as a conditions
-//using simple addition operator using direct values
+Arithematic operators 
+they are +,-,/,*,% 
+'+' operator is used to add two or more values
+'-' operator is used to subtract two or more values
+'*' operator is used to  multiply the values
+'/' division operator is used to remove last digit in the number and also it divides the numbers and returns the quotient value
+'%' operator is used to take a last digit from the number and also it will return the remainder between the numbers
+these  are only applicable for single value or variable cannot be used as a conditions
+using simple addition operator using direct values*/
 class P
 {
 	public static void main(String[] args) 
@@ -46,6 +46,21 @@ class R
 
 	}
 }
+//there are some arthimatic operators to assign the values
+class Arthimatic_2
+{
+	public static void main(String[] args) 
+	{
+		int a=4;
+		int b=6;
+		System.out.println(a+=b);  10
+	System.out.println(a-=b);
+		System.out.println(a*=b);
+		System.out.println(a/=b);
+		
+		
+	}
+}
 // Logical Operators
 //Here in this the logical operators are logical AND (&&),logical or(||) ,and finally logical Not(!)
 //logical AND is defined as both the conditions should satisfy at a  same time i.e both the conditions are true then the statements will get excuted
@@ -76,6 +91,23 @@ boolean res3=a!=0;
       System.out.println(res3);    //true
   }
 }
+//relational operator
+it is also known as comparision operator
+the relational operators  6 types they  are >,<,>=,<=,!=,==
+class Relational 
+{
+	public static void main(String[] args) 
+	{
+		int a=4;
+		int b=6;
+		System.out.println(a==b);	//false
+		System.out.println(a>=b);	//false
+		System.out.println(a<=b);	//true
+		System.out.println(a>b);	//false
+		System.out.println(a<b);	//true
+	}
+}
+
 
 
 
