@@ -46,17 +46,17 @@ class R
 
 	}
 }
-//there are some arthimatic operators to assign the values
+//there are some arthimatic operators to  compound assignment operator
 class Arthimatic_2
 {
 	public static void main(String[] args) 
 	{
 		int a=4;
 		int b=6;
-		System.out.println(a+=b);  10
-	System.out.println(a-=b);
-		System.out.println(a*=b);
-		System.out.println(a/=b);
+		System.out.println(a+=b);  //10
+	        System.out.println(a-=b);  //4
+		System.out.println(a*=b);  //24
+		System.out.println(a/=b);  //4
 		
 		
 	}
@@ -92,9 +92,9 @@ boolean res3=a!=0;
   }
 }
 //relational operator
-it is also known as comparision operator
+it is also known as comparision operator,it is used to compare any two values
 the relational operators  6 types they  are >,<,>=,<=,!=,==
-class Relational 
+class Relational_1
 {
 	public static void main(String[] args) 
 	{
@@ -107,6 +107,99 @@ class Relational
 		System.out.println(a<b);	//true
 	}
 }
+//the above code can also be written as assign the values and print it
+class Relational_1
+{
+	public static void main(String[] args) 
+	{
+		int a=4;
+		int b=6;
+		int c=a==b;
+		System.out.println(c);         //false
+		int d=a>=b;
+		System.out.println(d);	       //false
+		int e=a<=b;
+		System.out.println(e);		//true
+		int f=a>b;
+		System.out.println(f);		//false
+		int g=a<b;
+		System.out.println(g);		//true
+	}
+}
+//Unary operators 
+these are of four types
+-->pre increment(++a)
+--->post increment(a++)
+---->pre decrement(--a)
+------>post decrement(a--)
+here let us consider int a=1;
+now a++ value is 1
+++a value is 2 and vice versa
+----->>>program
+class UnaryOperator_1 
+{
+	public static void main(String[] args) 
+	{
+		int a=0;
+		System.out.println(a++);	//0
+		System.out.println(a);		//1
+		System.out.println(a--);	//1
+		System.out.println(++a);	//1
+		System.out.println(--a);	//0
+
+
+		
+	}
+}
+------->>>program_2
+class UnaryOperator_2
+{
+	public static void main(String[] args) 
+	{
+		int a=0;
+		int b=a++;
+		
+		System.out.println(a);	//1
+		int c=a--;
+		System.out.println(c);	//1
+		int d=++a;
+		System.out.println(d);	//1
+		int e=--a;
+		System.out.println(e);	//0
+		
+
+		
+	}
+}
+//CONDITIONAL OPERATOR OR TRITARY OPERATOR
+It uses three operators
+syntax:condition?operand1:operand2
+-->program1
+class BiggestNum
+{
+  public static void main(String[] args) 
+  {
+     int a=15;
+     int b=21;
+     int c=a>b?a:b;
+     System.out.println(c);//21
+  }
+}
+--->program2
+class EvenOrOdd
+{
+     public static void main(String[] args) 
+     {
+         int a=6;
+         int b=a%2==0?"Even":"Odd";
+	 System.out.println(b) //Even
+     }
+}
+
+
+ 
+
+
 
 
 
